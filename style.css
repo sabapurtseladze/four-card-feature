@@ -1,0 +1,331 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 1360px;
+}
+.div1{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.delivery{
+    font-size: 24px;
+    font-weight: 275;
+    line-height: 36px;
+    letter-spacing: 0.17px;
+    color: #4D4F62;
+}
+.technology{
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.17px;
+    padding-top: 1px;
+    color: black;
+}
+.project{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: 311px;
+    height: 75px;
+    color: #4D4F62;
+    text-align: center;
+}
+.super{
+    box-shadow: 0px 15px 30px -11px #83A6D280;
+    width: 311px;
+    height: 222px;
+    border-radius: 8px;
+    border-style: solid;
+    border-top-color: #44D3D2;
+    border-left-color: white;
+    border-bottom-color: white;
+    border-right-color:white;
+    margin-top: 76px;
+
+}
+
+.supervisor{
+    color:#4D4F62;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-top: 27px;
+    margin-left: 29px;
+}
+.monitor{
+    margin-top: 1px;
+    opacity: 50%;
+    size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.09px;
+    font-weight: 400;
+    color: #4D4F62;
+    margin-left: 29px;
+}
+section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.supervisorimage{
+    margin-right: 28px;
+    margin-bottom: 28px;
+    margin-left: 226px;
+    margin-top: 33px;
+    width: 57px;
+    height: 57px;
+
+}
+.builderdiv{
+    box-shadow: 0px 15px 30px -11px #83A6D280;
+    width: 311px;
+    height: 222px;
+    border-radius: 8px;
+    border-style: solid;
+    border-top-color: #EA5454;
+    border-left-color: white;
+    border-bottom-color: white;
+    border-right-color:white;
+    margin-top: 76px;
+}
+.team{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 28px;
+    margin-top: 23px;
+    color: #4D4F62;
+}
+.create{
+    font-weight: 400;
+    size: 13px;
+    letter-spacing: 0.09px;
+    line-height: 23px;
+    margin-left: 29px;
+    opacity: 50%;
+    color: #4D4F62;
+}
+.teamimg{
+    width: 57px;
+    height: 57px;
+    margin-top: 33px;
+    margin-left: 226px;
+    margin-right: 28px;
+}
+.karmadiv{
+    width: 311px;
+    height: 222px;
+    border-radius: 8px;
+    box-shadow: 0px 15px 30px -11px #83A6D280;
+    border-style: solid;
+    border-top-color: #FCAE4A;
+    border-left-color: white;
+    border-bottom-color: white;
+    border-right-color:white;
+    margin-top: 76px;
+}
+.karma{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 29px;
+    margin-top: 27px;
+    color: #4D4F62;
+}
+.talent{
+    font-weight: 400;
+    opacity: 50%;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.09px;
+    color: #4D4F62;
+    margin-top: 1px;
+    margin-left: 29px;
+}
+.karmaimage{
+    width: 57px;
+    height: 57px;
+    margin-top: 33px;
+    margin-left: 226px;
+}
+.calcuratordiv{
+    width: 311px;
+    height: 222px;
+    border-radius: 8px;
+    box-shadow: 0px 15px 30px -11px #83A6D280;
+    border-style: solid;
+    border-top-color: #549EF2;
+    border-left-color: white;
+    border-bottom-color: white;
+    border-right-color:white;
+    margin-top: 76px;
+}
+.calcurator{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 28px;
+    margin-top: 27px;
+    color: #4D4F62;
+}
+.past{
+    font-weight: 400;
+    opacity: 50%;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.09px;
+    color: #4D4F62;
+    margin-top: 1px;
+    margin-left: 29px;
+}
+.Calculatorimage{
+    width: 57px;
+    height: 57px;
+    margin-top: 33px;
+    margin-left: 226px;
+}
+.footerdiv1{
+    width: 375px;
+    height: 77px;
+} 
+@media (min-width: 1440px){
+.delivery{
+    font-weight: 275;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.25px;
+
+}
+.technology{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.25px;
+}
+.project{
+    opacity: 50%;
+    font-weight: 400;
+    size: 15px;
+    letter-spacing: 0.1px;
+    line-height: 25px;
+}
+.supervisor{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+.monitor{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 0.09px;
+    margin-top: 6px;
+    margin-left: 32px; 
+}
+.supervisorimage{
+    width: 64px;
+    height: 64px;
+    margin-top: 40px;
+    margin-left: 254px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+.builderdiv{
+    width: 350px;
+    height: 250px;
+    margin-right: 30px;
+}
+.team{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 28px;
+    margin-left: 32px;
+}
+.create{
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.09px;
+    margin-top: 6px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.teamimg{
+    width: 64px;
+    height: 64px;
+    margin-top: 40px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    margin-left: 254px;
+}
+.karmadiv{
+    width: 350px;
+    height: 250px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.karma{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 28px;
+    margin-left: 32px;
+}
+.talent{
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.09px;
+    margin-top: 6px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.karmaimage{
+    width: 64px;
+    height: 64px;
+    margin-top: 40px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    margin-left: 254px;
+}
+.calcuratordiv{
+    width: 350px;
+    height: 250px;
+}
+.calcurator{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 28px;
+    margin-left: 32px;
+}
+.past{
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.09px;
+    margin-top: 6px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.Calculatorimage{
+    width: 64px;
+    height: 64px;
+    margin-top: 40px;
+    margin-left: 254px;
+}
+section {
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+}
+}
